@@ -2,6 +2,10 @@ import json
 import httplib2
 import requests
 
+fs_client_id=''
+fs_client_secret=''
+google_api_key = ''
+
 def getGeocodeLocation(inputString):
     #Replace Spaces with '+' in URL
     locationString = inputString.replace(" ", "+")
